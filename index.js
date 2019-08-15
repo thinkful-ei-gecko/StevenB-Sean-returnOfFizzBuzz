@@ -47,9 +47,6 @@ function handleSubmit() {
     const newHtml = fizzBuzzResults.map(result => generateFizzHtml(result));
     $('.js-results').html(newHtml);
   });
-
-
 }
-
 
 $(handleSubmit);
